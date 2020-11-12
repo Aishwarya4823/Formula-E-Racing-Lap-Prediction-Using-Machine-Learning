@@ -1,0 +1,1 @@
+DRIVER_NAME,location,season_year,match_name,match_type,GROUP,TEAM,mean_KPH,std_KPH,med_KPH,max_KPH,min_KPH,range_KPH,skew_KPH,mean_S1,std_S1,med_S1,max_S1,min_S1,range_S1,skew_S1,mean_S2,std_S2,med_S2,max_S2,min_S2,range_S2,skew_S2,mean_S3,std_S3,med_S3,max_S3,min_S3,range_S3,skew_S3,Total_Lap_Num,PIT_TIME_cnt,cnt_CROSSING_FINISH_LINE_IN_PIT
