@@ -70,8 +70,8 @@ For this data, we tried the following four models with their accuracies listed a
 |   Model                |R2 Score|
 |------------------------|-------------------|
 |K-Nearest Neighbours    |   0.8811          |
-|Elastic Net             |   0.7948          |
 |Random Forest           |   0.9698          |
+|Elastic Net             |   0.7948          |
 
 <br>
 Additionally, we also developed a weighted average ensemble model that used linear regression to calculate the weights of the outputs of each of the above given three models.<br>
