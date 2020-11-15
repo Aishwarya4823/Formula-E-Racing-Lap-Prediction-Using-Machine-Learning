@@ -57,6 +57,42 @@ Few of the weather data features are as follows :<br>
 <br>
 <br>
 Because most of our data was in a hierarchical format of of files and folders, we took following feature engineering steps to clean and aggregate our data:<br>
-1) 
+1) Concatenation of datasets across all seasons<br>
+2) Creation of new columns to unique identify each match with location, season, total lap number, total pit count<br>
+3) Aggregation of data (to get latest results for each match) by driver name, match type, group and team<br>
+4) Inclusion of summary statistics of variables of KPH, S1, S2 and S3 as individual columns to capture each aspect of these numerical variables and their effect on total lap count for each match<br>
+5) Summation of all pit time into total pit time<br>
+
+## Exploratory Data Analysis (EDA)
+<br>
+Since we did not have weather data for the test set, we used weather data majorly in our EDA process. Some interesting insights that we discovered were as follows :<br>
+1) Second Day of Double Header Races have faster average speeds<br>
+2) We observed a slight reduction in median KPH before the drivers sped up for the final lap<br>
+3) We observed an increase in average speed as the track temperature increased. This variation in speed showed against location as well.<br>
+<br>
+
+## Data Modelling
+
+For this data, we tried the following four models with their accuracies listed as below 
+
+|   Model                |R2 Score|
+|------------------------|-------------------|
+|K-Nearest Neighbours    |   0.8811          |
+|Elastic Net             |   0.7948          |
+|Random Forest           |   0.9698          |
+
+<br>
+Additionally, we also developed a weighted average ensemble model that used linear regression to calculate the weights of the outputs of each of the above given three models.<br>
+<br>
+After plotting the output for each of these models, we observed that although Random Forest performed the best out of the individual models, the output of the ensemble model was the closest to the real predictions. This can be observed in the graph below:<br>
+<br>
+
+Image_of_output
+
+<br>
+<br>
+
+
+
 
  
