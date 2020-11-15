@@ -16,7 +16,6 @@ Since we are predicting the total number of laps with respect to each match, if 
 ![Model Prediction](https://github.com/Aishwarya4823/Formula-E-Racing-Lap-Prediction-Using-Machine-Learning/blob/main/Images/Prediction%20Equation.JPG)
 
 <br>
-
 ## Data
 <br>
 
@@ -50,7 +49,7 @@ Few of the weather data features are as follows :<br>
 3) Humidity<br>
 4) Pressure<br>
 5) Wind Speed<br>
-<br>
+
 
 ## Feature Engineering
 
@@ -66,7 +65,7 @@ Since we did not have weather data for the test set, we used weather data majorl
 1) Second Day of Double Header Races have faster average speeds<br>
 2) We observed a slight reduction in median KPH before the drivers sped up for the final lap<br>
 3) We observed an increase in average speed as the track temperature increased. This variation in speed showed against location as well.<br>
-<br>
+
 
 ## Data Modelling
 
