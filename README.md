@@ -7,9 +7,7 @@ For example, if our model predicts that the number of laps remaining are 30 with
 <br><br>
 ![Racer Strategy Picture](https://github.com/Aishwarya4823/Formula-E-Racing-Lap-Prediction-Using-Machine-Learning/blob/main/Images/Strategy_image.JPG)
 <br>
-
 ## Real Time Prediction
-<br>
 Since we are predicting the total number of laps with respect to each match, if implemented, our real-time predictions to the racer would be as follows : 
 <br>
 
@@ -17,8 +15,6 @@ Since we are predicting the total number of laps with respect to each match, if 
 
 <br>
 ## Data
-<br>
-
 The data that we used for this case competition has been provided by Genpact (https://www.genpact.com/). The data is arranged in a hierarchical format as follows :
 
 ```bash
