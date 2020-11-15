@@ -92,7 +92,13 @@ Image_of_output
 <br>
 <br>
 
-
+## Conclusion and Future Recommendations
+<br>
+There were two key insights that we took away from this project which are as follows :<br>
+1) The performance of a racer can definitely be improved with a detailed inclusion of temperature and location while predicting the total number of possible laps in a match<Br>
+2) It is possible to accurately predict the remaining laps in real-time for a racer given historical racing data using an ensemble model. This will further help the racer device their energy expenditure strategy more accurately which could increase their chances of improving <br><br>
+ 
+ Future_recommnedation_image
 
 
  
