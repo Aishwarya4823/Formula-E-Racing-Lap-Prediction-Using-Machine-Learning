@@ -4,18 +4,17 @@ Formula E Racing is the world’s first full electric, international one-seater,
 The prediction question that we have tried to answer is if, using historical data, we can predict the number of laps the driver will need to complete the race. <br><br>
 The reason why it's important to solve this business case is because once a driver would know how many laps are left in a race, then that would help him better frame his energy optimization strategy.<br><br>
 For example, if our model predicts that the number of laps remaining are 30 with low battery, then the racer could choose to drive conservatively and save energy. On the other hand, if our model would predict the number of remaining laps to be 30 with high battery power, then the racer could choose to drive aggressively and expend energy. Either way, if the racer can better manage their battery expenditure, then that would lead to a better strategy at winning the race. 
-
+<br><br>
+![Racer Strategy Picture](https://github.com/Aishwarya4823/Formula-E-Racing-Lap-Prediction-Using-Machine-Learning/blob/main/Images/Strategy_image.JPG)
 <br>
 
 ## Real Time Prediction
 <br>
 Since we are predicting the total number of laps with respect to each match, if implemented, our real-time predictions to the racer would be as follows : 
 <br>
-<br>
 
-Image
+![Model Prediction](https://github.com/Aishwarya4823/Formula-E-Racing-Lap-Prediction-Using-Machine-Learning/blob/main/Images/Prediction%20Equation.JPG)
 
-<br>
 <br>
 
 ## Data
@@ -54,8 +53,7 @@ Few of the weather data features are as follows :<br>
 <br>
 
 ## Feature Engineering
-<br>
-<br>
+
 Because most of our data was in a hierarchical format of of files and folders, we took following feature engineering steps to clean and aggregate our data:<br>
 1) Concatenation of datasets across all seasons<br>
 2) Creation of new columns to unique identify each match with location, season, total lap number, total pit count<br>
@@ -64,7 +62,6 @@ Because most of our data was in a hierarchical format of of files and folders, w
 5) Summation of all pit time into total pit time<br>
 
 ## Exploratory Data Analysis (EDA)
-<br>
 Since we did not have weather data for the test set, we used weather data majorly in our EDA process. Some interesting insights that we discovered were as follows :<br>
 1) Second Day of Double Header Races have faster average speeds<br>
 2) We observed a slight reduction in median KPH before the drivers sped up for the final lap<br>
@@ -87,18 +84,16 @@ Additionally, we also developed a weighted average ensemble model that used line
 After plotting the output for each of these models, we observed that although Random Forest performed the best out of the individual models, the output of the ensemble model was the closest to the real predictions. This can be observed in the graph below:<br>
 <br>
 
-Image_of_output
+![Models' Outputs](https://github.com/Aishwarya4823/Formula-E-Racing-Lap-Prediction-Using-Machine-Learning/blob/main/Tableau%20Graphs/All_model_comparisons.png)
 
-<br>
 <br>
 
 ## Conclusion and Future Recommendations
-<br>
 There were two key insights that we took away from this project which are as follows :<br>
 1) The performance of a racer can definitely be improved with a detailed inclusion of temperature and location while predicting the total number of possible laps in a match<Br>
-2) It is possible to accurately predict the remaining laps in real-time for a racer given historical racing data using an ensemble model. This will further help the racer device their energy expenditure strategy more accurately which could increase their chances of improving <br><br>
+2) It is possible to accurately predict the remaining laps in real-time for a racer given historical racing data using an ensemble model. This will further help the racer device their energy expenditure strategy more accurately which could increase their chances of improving <br>
  
- Future_recommnedation_image
 
+![Future Recommendations](https://github.com/Aishwarya4823/Formula-E-Racing-Lap-Prediction-Using-Machine-Learning/blob/main/Images/Future_Recommendations.JPG)
 
  
