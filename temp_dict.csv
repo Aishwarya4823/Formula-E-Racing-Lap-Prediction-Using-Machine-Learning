@@ -1,0 +1,121 @@
+Lap Number,Predicted Total Laps,Model,,Actual
+0,2.68,Random Forest,,25
+1,2.71,Random Forest,,25
+2,3.25,Random Forest,,25
+3,2.84,Random Forest,,25
+4,3.23,Random Forest,,25
+5,8.92,Random Forest,,25
+6,8.89,Random Forest,,25
+7,12.5,Random Forest,,25
+8,16.6,Random Forest,,25
+9,17.29,Random Forest,,25
+10,17.37,Random Forest,,25
+11,16.91,Random Forest,,25
+12,18.94,Random Forest,,25
+13,18.28,Random Forest,,25
+14,19.5,Random Forest,,25
+15,18.24,Random Forest,,25
+16,27.72,Random Forest,,25
+17,28.72,Random Forest,,25
+18,28.25,Random Forest,,25
+19,28.12,Random Forest,,25
+20,28.09,Random Forest,,25
+21,28.16,Random Forest,,25
+22,28.17,Random Forest,,25
+23,27.81,Random Forest,,25
+0,22.0420696,ElasticNet,,
+1,22.3324597,ElasticNet,,
+2,22.21784591,ElasticNet,,
+3,22.19564604,ElasticNet,,
+4,22.26937575,ElasticNet,,
+5,24.09139268,ElasticNet,,
+6,24.13072798,ElasticNet,,
+7,24.15818168,ElasticNet,,
+8,24.18738088,ElasticNet,,
+9,24.21061476,ElasticNet,,
+10,24.23214089,ElasticNet,,
+11,24.25294924,ElasticNet,,
+12,24.27085907,ElasticNet,,
+13,24.28435358,ElasticNet,,
+14,23.52935029,ElasticNet,,
+15,23.59536565,ElasticNet,,
+16,23.65508225,ElasticNet,,
+17,23.70933128,ElasticNet,,
+18,23.7590792,ElasticNet,,
+19,23.80478159,ElasticNet,,
+20,23.84697259,ElasticNet,,
+21,23.88598932,ElasticNet,,
+22,23.92223591,ElasticNet,,
+23,23.1014992,ElasticNet,,
+0,2.806954808,KNN,,
+1,13.11912877,KNN,,
+2,15.91972107,KNN,,
+3,15.8000747,KNN,,
+4,28.78767519,KNN,,
+5,35,KNN,,
+6,35,KNN,,
+7,35,KNN,,
+8,35,KNN,,
+9,35,KNN,,
+10,35,KNN,,
+11,35,KNN,,
+12,33.954831,KNN,,
+13,30.38795905,KNN,,
+14,34.97923952,KNN,,
+15,34.9962951,KNN,,
+16,35.01254328,KNN,,
+17,35.02762472,KNN,,
+18,35.04219733,KNN,,
+19,35.0566381,KNN,,
+20,35.07061494,KNN,,
+21,29,KNN,,
+22,29,KNN,,
+23,29,KNN,,
+0,20.11221038,Weighted Average,,
+1,20.89067017,Weighted Average,,
+2,20.95454737,Weighted Average,,
+3,20.90808517,Weighted Average,,
+4,21.64332193,Weighted Average,,
+5,23.87825341,Weighted Average,,
+6,23.91215518,Weighted Average,,
+7,24.11736351,Weighted Average,,
+8,24.34864279,Weighted Average,,
+9,24.40405329,Weighted Average,,
+10,24.4274268,Weighted Average,,
+11,24.42315432,Weighted Average,,
+12,22.57382673,Weighted Average,,
+13,21.89253734,Weighted Average,,
+14,22.65966407,Weighted Average,,
+15,22.05777577,Weighted Average,,
+16,26.82328723,Weighted Average,,
+17,27.34649498,Weighted Average,,
+18,27.13285141,Weighted Average,,
+19,27.08757645,Weighted Average,,
+20,27.09085053,Weighted Average,,
+21,26.53439573,Weighted Average,,
+22,26.55389436,Weighted Average,,
+23,26.04559968,Weighted Average,,
+0,9.176341469,Mean/Average,,
+1,12.72052949,Mean/Average,,
+2,13.79585566,Mean/Average,,
+3,13.61190691,Mean/Average,,
+4,18.09568365,Mean/Average,,
+5,22.67046423,Mean/Average,,
+6,22.67357599,Mean/Average,,
+7,23.88606056,Mean/Average,,
+8,25.26246029,Mean/Average,,
+9,25.50020492,Mean/Average,,
+10,25.53404696,Mean/Average,,
+11,25.38764975,Mean/Average,,
+12,25.72189669,Mean/Average,,
+13,24.31743754,Mean/Average,,
+14,26.00286327,Mean/Average,,
+15,25.61055359,Mean/Average,,
+16,28.79587518,Mean/Average,,
+17,29.15231867,Mean/Average,,
+18,29.01709218,Mean/Average,,
+19,28.99380656,Mean/Average,,
+20,29.00252918,Mean/Average,,
+21,27.01532977,Mean/Average,,
+22,27.0307453,Mean/Average,,
+23,26.6371664,Mean/Average,,
